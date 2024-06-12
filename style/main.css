@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+}
+form {
+    position: relative;
+    padding-top: 50px;
+    
+}
+label {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+input {
+    padding: 20px;
+    font-size: 26px;
+    width: 200px;
+    outline: none;
+    border: 1px solid rgb(0, 128, 0);
+}
+input:focus {
+    border-color: rgb(250, 5, 5);
+    outline: none;
+}
+#err {
+    color: rgb(252, 6, 6);
+    font-size: 36px;
+}
+#real_age_display {
+    font-size: 36px;
+    font-weight: 600;
+}
+button {
+    padding-bottom: 50px;
+    position: absolute;
+}
+#btn:hover {
+background-color: rgb(165, 216, 199);
+}
+button p {
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#btn {
+    width: 90px;
+    height: 76px;
+    background-color: rgb(127, 255, 212);
+    color: #000;
+    border-radius: 2px;
+    border: 1px solid #000;
+    margin-left: 20px;
+}
